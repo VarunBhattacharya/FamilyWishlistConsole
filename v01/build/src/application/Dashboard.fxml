@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="520.0" prefWidth="925.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DashboardController">
+   <children>
+      <ImageView fitHeight="526.0" fitWidth="934.0" layoutX="-3.0" layoutY="-6.0">
+         <image>
+            <Image url="@../../assets/Custom_Project_Background_2.png" />
+         </image>
+      </ImageView>
+      <Circle fx:id="btn_close_2" fill="RED" layoutX="21.0" layoutY="23.0" onMouseClicked="#btn_close_win_2" radius="6.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#7b858f" height="34.0" layoutX="4.0" layoutY="100.0" stroke="#00000061" strokeType="INSIDE" width="162.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000061" height="34.0" layoutX="4.0" layoutY="151.0" onMouseClicked="#btn_Wishlist" stroke="#00000061" strokeType="INSIDE" width="162.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000061" height="34.0" layoutX="4.0" layoutY="200.0" onMouseClicked="#btn_About" stroke="#00000061" strokeType="INSIDE" width="162.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000061" height="34.0" layoutX="4.0" layoutY="319.0" onMouseClicked="#btn_SwitchUser" stroke="#00000061" strokeType="INSIDE" width="162.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000061" height="34.0" layoutX="4.0" layoutY="381.0" onMouseClicked="#btn_Exit" stroke="#00000061" strokeType="INSIDE" width="162.0" />
+      <Label fx:id="namelabel" layoutX="413.0" layoutY="135.0" prefHeight="48.0" prefWidth="335.0" textFill="#00fffd">
+         <font>
+            <Font name="Consolas Bold Italic" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="106.0" text="Dashboard" textFill="#ffc800">
+         <font>
+            <Font name="Consolas Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="311.0" layoutY="143.0" text="Hello" textFill="#00fffd">
+         <font>
+            <Font name="Consolas Bold Italic" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="156.0" text="Wishlist" textFill="#51ff00">
+         <font>
+            <Font name="Consolas Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="33.0" layoutY="326.0" text="Switch User" textFill="#51ff00">
+         <font>
+            <Font name="Consolas Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="67.0" layoutY="386.0" text="Exit" textFill="#51ff00">
+         <font>
+            <Font name="Consolas Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="205.0" text="About" textFill="#51ff00">
+         <font>
+            <Font name="Consolas Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000061" height="34.0" layoutX="297.0" layoutY="282.0" stroke="#00000061" strokeType="INSIDE" width="162.0" />
+      <Label layoutX="340.0" layoutY="288.0" text="Wishlist" textFill="#51ff00">
+         <font>
+            <Font name="Consolas Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000061" height="34.0" layoutX="297.0" layoutY="324.0" stroke="#00000061" strokeType="INSIDE" width="162.0" />
+      <Label layoutX="355.0" layoutY="330.0" text="About" textFill="#51ff00">
+         <font>
+            <Font name="Consolas Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000061" height="34.0" layoutX="297.0" layoutY="365.0" stroke="#00000061" strokeType="INSIDE" width="162.0" />
+      <Label layoutX="326.0" layoutY="372.0" text="Switch User" textFill="#51ff00">
+         <font>
+            <Font name="Consolas Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000061" height="34.0" layoutX="297.0" layoutY="407.0" stroke="#00000061" strokeType="INSIDE" width="162.0" />
+      <Label layoutX="360.0" layoutY="413.0" text="Exit" textFill="#51ff00">
+         <font>
+            <Font name="Consolas Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#00000061" height="34.0" layoutX="297.0" layoutY="240.0" stroke="#00000061" strokeType="INSIDE" width="162.0" />
+      <Label layoutX="336.0" layoutY="246.0" text="Dashboard" textFill="#51ff00">
+         <font>
+            <Font name="Consolas Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="329.0" layoutY="196.0" text="Quick Guildelines for using this Console !!!" textFill="WHITE">
+         <font>
+            <Font name="Consolas Bold Italic" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="463.0" layoutY="240.0" prefHeight="34.0" prefWidth="346.0" text="User can check out the functionalities of all the side bars built." textFill="#f6f6b5" wrapText="true">
+         <font>
+            <Font name="Consolas Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="463.0" layoutY="282.0" prefHeight="34.0" prefWidth="346.0" text="User can keep a track of your wishes which you plan to attain." textFill="#f6f6b5" wrapText="true">
+         <font>
+            <Font name="Consolas Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="463.0" layoutY="324.0" prefHeight="34.0" prefWidth="346.0" text="User can check about the project details and why is the main goal of it." textFill="#f6f6b5" wrapText="true">
+         <font>
+            <Font name="Consolas Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="463.0" layoutY="364.0" prefHeight="34.0" prefWidth="346.0" text="User can switch the user account by getting logged out of the current account automatically." textFill="#f6f6b5" wrapText="true">
+         <font>
+            <Font name="Consolas Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="463.0" layoutY="407.0" prefHeight="34.0" prefWidth="346.0" text="Once clicked this, user will be successfully logged out of the console...😢" textFill="#f6f6b5" wrapText="true">
+         <font>
+            <Font name="Consolas Italic" size="11.0" />
+         </font>
+      </Label>
+      <Label fx:id="vid_dem" layoutX="657.0" layoutY="447.0" onMouseClicked="#btnvdndemo" text="Video Demo of Application" textAlignment="CENTER" textFill="#ffdbdb" underline="true">
+         <font>
+            <Font name="Consolas Italic" size="11.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
